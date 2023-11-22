@@ -1,7 +1,7 @@
 ## Dog Breed Classifier
 #
 
-<a target="_blank" href="https://colab.research.google.com/github/ericxlima/dog-breed-classifier/blob/main/Copy_of_Projetin_Dog_Breed_Classifier_Deploy.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/ericxlima/dog-breed-classifier/blob/main/Dog_Breed_Classifier_Deploy.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
