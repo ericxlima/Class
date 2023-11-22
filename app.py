@@ -42,21 +42,6 @@ DEVELOP_MODE = False  # @param {type:"boolean"}
 # @markdown - DEVELOP_MODE: This will install all develop requirements and configure (You need set manually the AZURE API KEY)
 AZURE_SEARCH_KEY = ""  # @param {type:"string"}
 
-#       Install Main Packages
-!pip install 'accelerate==0.18.0'
-!pip install 'scipy==1.10.1'
-!pip install 'ftfy==6.1.1'
-!pip install 'gradio==3.28.1'
-
-if DEVELOP_MODE:
-    #       Install Fastbook AI toolkit
-    ! [-e / content] & & pip install - Uqq fastbook
-    !pip install fastbook
-    !pip install - -upgrade fastcore
-else:
-    #       Download the pkl model
-    !git clone https://github.com/ericxlima/dog-breed-classifier
-#     %mv dog-breed-classifier/dogs.pkl ./
 
 #       Import all libs
 import os
