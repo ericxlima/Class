@@ -1,6 +1,10 @@
 ## Dog Breed Classifier
 #
 
+<a target="_blank" href="https://colab.research.google.com/github/ericxlima/dog-breed-classifier/blob/main/Copy_of_Projetin_Dog_Breed_Classifier_Deploy.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 This project is a GUI (Graphical User Interface) for classifying dog breed by images. It uses a pre-trained neural network called ResNet-18 to perform the classification.
 
 In the develop mode, the code has 3 main functions:
@@ -15,20 +19,9 @@ In the default mode, the code has only `classify_image()`, and the model is down
 
 The code also has a Gradio interface that allows the user to load a dog image and get the model's classification. The model classifies images into 13 different dog breeds:
 
-- Zwergspitz
-- French Bulldog
-- Shih Tzu
-- Rottweiler
-- Pug
-- Golden retriever
-- Deutscher Schäferhund
-- yorkshire terrier
-- border collie
-- Dachshund
-- Poodle
-- Labrador Retriever
-- Pinscher
+![img](https://imgur.com/P3HGygv.png)
 
 The interface also has a memory optimization option that can be enabled or disabled by the user. When the option is enabled, the template uses less memory but takes a little longer to sort the image. The option is disabled by default.
 User
 
+![img](https://imgur.com/tjtQfER.png)
